@@ -6,7 +6,7 @@
   <link href="https://xrosemary.github.io/atom.xml" rel="self"/>
   
   <link href="https://xrosemary.github.io/"/>
-  <updated>2022-09-05T13:49:22.781Z</updated>
+  <updated>2022-09-07T15:57:48.927Z</updated>
   <id>https://xrosemary.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>如何实现简易的火焰传播效果</title>
+    <link href="https://xrosemary.github.io/posts/7989.html"/>
+    <id>https://xrosemary.github.io/posts/7989.html</id>
+    <published>2022-09-07T15:31:23.000Z</published>
+    <updated>2022-09-07T15:57:48.927Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="如何实现简易的火焰传播效果"><a href="#如何实现简易的火焰传播效果" class="headerlink" title="如何实现简易的火焰传播效果"></a>如何实现简易的火焰传播效果</h1><h2 id="先展示下效果"><a href="#先展示下效果" class="headerlink" title="先展示下效果"></a>先展示下效果</h2><p><img src="https://raw.githubusercontent.com/xRosemary/test/main/img/20220907230501.gif" alt="20220907230501"></p><h2 id="具体实现"><a href="#具体实现" class="headerlink" title="具体实现"></a>具体实现</h2><h3 id="所需组件："><a href="#所需组件：" class="headerlink" title="所需组件："></a>所需组件：</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">├────── StaticMesh (网格体组件)</span><br><span class="line"></span><br><span class="line">│   ├── Sphere (球形碰撞体)</span><br><span class="line"></span><br><span class="line">│   └── ParticleSystem (粒子系统)</span><br></pre></td></tr></table></figure><h3 id="蓝图"><a href="#蓝图" class="headerlink" title="蓝图"></a>蓝图</h3><p>首先，触发时开启粒子效果，其次将自己可燃的标签删除，再次获得碰撞体内所有的可燃物品。</p><p><img src="https://raw.githubusercontent.com/xRosemary/test/main/img/image-20220907235705186.png" alt="image-20220907235705186"></p><p>最后，点燃所有可燃物品。</p><p><img src="https://raw.githubusercontent.com/xRosemary/test/main/img/image-20220907235425148.png" alt="image-20220907235425148"></p><p>大功告成。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;如何实现简易的火焰传播效果&quot;&gt;&lt;a href=&quot;#如何实现简易的火焰传播效果&quot; class=&quot;headerlink&quot; title=&quot;如何实现简易的火焰传播效果&quot;&gt;&lt;/a&gt;如何实现简易的火焰传播效果&lt;/h1&gt;&lt;h2 id=&quot;先展示下效果&quot;&gt;&lt;a href=&quot;#先展示</summary>
+      
+    
+    
+    
+    <category term="UE4" scheme="https://xrosemary.github.io/categories/UE4/"/>
+    
+    
+    <category term="游戏开发" scheme="https://xrosemary.github.io/tags/%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91/"/>
+    
+  </entry>
   
   <entry>
     <title>浅析常见的设计模式</title>
